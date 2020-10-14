@@ -36,3 +36,5 @@ end # function
 xs = Vector([1, 3, 4, 5, 8, 2, 7])
 
 res = bubble_sort!(xs)
+
+@time bubble_sort!(xs)
